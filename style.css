@@ -18,6 +18,12 @@
 ::selection{
   background: rgb(0,123,255,0.3);
 }
+
+.imgg{
+    max-width: 200px;
+    max-height: fit-content;
+}
+
 .content{
   max-width: 1250px;
   margin: auto;
@@ -31,7 +37,7 @@
   transition: all 0.3s ease;
 }
 .navbar.sticky{
-  background: #1b1b1b;
+  background: #50067a;
   padding: 10px 0;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
