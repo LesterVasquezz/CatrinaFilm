@@ -41,7 +41,7 @@
   justify-content: space-between;
 }
 .navbar .logo a{
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -53,7 +53,7 @@
   list-style: none;
 }
 .menu-list li a{
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
@@ -82,7 +82,7 @@
   text-align: justify;
 }
 .icon{
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -149,4 +149,14 @@
   .navbar .logo a{
     font-size: 27px;
   }
+}
+
+div {
+  text-align: center;
+  width:100%;
+}
+
+.imgg{
+  max-width: 200px;
+  max-height: fit-content;
 }

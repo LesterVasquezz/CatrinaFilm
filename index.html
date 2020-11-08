@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
+
 <body>
   <nav class="navbar">
     <div class="content">
@@ -16,8 +18,8 @@
         <div class="icon cancel-btn">
           <i class="fas fa-times"></i>
         </div>
-        <li><a href="#">Home</a></li>
-        
+        <li><a href="#">^</a></li>
+
       </ul>
       <div class="icon menu-btn">
         <i class="fas fa-bars"></i>
@@ -25,27 +27,47 @@
     </div>
   </nav>
   <div class="banner"></div>
-  <div class="about">
+  <div class="about" align="left">
     <div class="content">
-      <iframe name="principal" src="map.html" width="800" height="800"></iframe>
-  </div>
+      <p class="title">&#128270; ¿Puedes descurbir que estados tienen las leyendas más conocidas? &#128204;</p> <br>
+      <h3>Encuentra los videos ocultos en el mapa y gana los premios que tenemos para ti, Cada video cuenta con 
+        inteliencia artificial que extrae informacion automáticamente como: Sentimientos, Personas, Temas, Etiquetas, Escenas
+        y Escala de tiempo para traducir el texto generado.  
+      </h3><br> <br>
+      <iframe name="principal" src="map.html" width="999" height="500"></iframe>
+      <h3>"Lo que mata no es la muerte, sino la mala suerte"</h3><br><br>
 
-  <script>
-    const body = document.querySelector("body");
-    const navbar = document.querySelector(".navbar");
-    const menuBtn = document.querySelector(".menu-btn");
-    const cancelBtn = document.querySelector(".cancel-btn");
-    menuBtn.onclick = ()=>{
-      navbar.classList.add("show");
-      menuBtn.classList.add("hide");
-      body.classList.add("disabled");
-    }
-    cancelBtn.onclick = ()=>{
-      body.classList.remove("disabled");
-      navbar.classList.remove("show");
-      menuBtn.classList.remove("hide");
-    }
-    window.onscroll = ()=>{
-      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-    }
-  </script>
+      <div class="title">&#11088; Premios Desbloqueables!!!</div> <br><br>
+      <!-- <h2>&#9889; Corto exclusivo de CatrinaFilm &#9889;</h2>
+      <img src="images/p1.png" class="imgg">-->
+
+      <h2>&#9889; Wallpapers Mas allá del día de muertos &#9889;</h2>
+      <img src="images/p0.png" class="imgg">
+
+      <h2>&#9889; Filtro de Instagram ‘Inmortalidad Mexican’ &#9889;</h2>
+      <img src="images/v2.png" class="imgg">
+
+
+      
+    </div>
+
+
+    <script>
+      const body = document.querySelector("body");
+      const navbar = document.querySelector(".navbar");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = () => {
+        navbar.classList.add("show");
+        menuBtn.classList.add("hide");
+        body.classList.add("disabled");
+      }
+      cancelBtn.onclick = () => {
+        body.classList.remove("disabled");
+        navbar.classList.remove("show");
+        menuBtn.classList.remove("hide");
+      }
+      window.onscroll = () => {
+        this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+      }
+    </script>
